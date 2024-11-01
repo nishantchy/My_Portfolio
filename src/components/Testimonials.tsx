@@ -8,19 +8,28 @@ import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 export function Testimonials() {
   const testimonials = [
     {
-      quote: "It was the best of times.",
-      name: "Charles Dickens",
-      image: "/profile.JPG",
+      quote:
+        "Nishant's attention to detail is remarkable. Working with him has elevated our projects to a whole new level.",
+      name: "Dhurba Chaudhary (Full Stack Developer)",
+      image: "/testimonials/dhurbadai.png",
     },
     {
-      quote: "To be, or not to be, that is the question",
-      name: "William Shakespeare",
-      image: "/profile.JPG",
+      quote:
+        "A visionary with a knack for solving complex problems efficiently. I’m always impressed with Nishant’s work ethic.",
+      name: "Sujan Man Sthapit (Graphics Designer)",
+      image: "/testimonials/sujandai.png",
     },
     {
-      quote: "All that we see or seem is but a dream within a dream.",
-      name: "Edgar Allan Poe",
-      image: "/profile.JPG",
+      quote:
+        "Collaborating with Nishant was a transformative experience. His creative solutions and dedication are inspiring.",
+      name: "Rabin Shrestha (Flutter Developer)",
+      image: "/testimonials/rabindai.png",
+    },
+    {
+      quote:
+        "Nishant combines technical expertise with a warm, approachable personality. I highly recommend him.",
+      name: "Aasis Thapa (CEO)",
+      image: "/testimonials/aasissir.png",
     },
   ];
 

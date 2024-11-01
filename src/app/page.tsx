@@ -1,4 +1,5 @@
 import { AboutSection } from "@/components/AboutSection";
+import WhatsApp from "@/components/Animations/WhatsApp";
 import Contact from "@/components/ContactMe";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -9,7 +10,7 @@ import { Testimonials } from "@/components/Testimonials";
 
 export default function Home() {
   return (
-    <div className="bg-slate-950 font-Cinzel">
+    <div className="relative bg-slate-950 font-Cinzel">
       <HeroSection />
       <AboutSection />
       <MessageSection />
@@ -18,6 +19,7 @@ export default function Home() {
       <Testimonials />
       <Contact />
       <Footer />
+      <WhatsApp />
     </div>
   );
 }

@@ -29,9 +29,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-slate-950 text-gray-300 text-paragraphSm md:text-paragraph">
+    <footer className="bg-slate-950 text-gray-300 text-paragraphSm md:text-paragraph relative">
       <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-wrap justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-start gap-x-[200px] items-center">
           <div className="w-full md:w-auto mb-6 md:mb-0">
             <ul className="flex flex-wrap justify-center md:justify-start space-x-6 cursor-pointer">
               <li className="">
@@ -82,7 +82,6 @@ export default function Footer() {
                   Testimonials
                 </Link>
               </li>
-
               <li>
                 <Link
                   to="works"
@@ -111,9 +110,6 @@ export default function Footer() {
               <span className="mt-2 text-sm">Scroll to Top</span>
             </div>
           </Link>
-        </div>
-        <div className="mt-8 text-center text-paragraphSm md:text-paragraph">
-          Developed By Nishant Chaudhary
         </div>
       </div>
     </footer>
