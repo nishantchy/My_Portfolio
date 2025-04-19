@@ -60,7 +60,7 @@ export const TextGenerateEffect = ({
   return (
     <div
       className={cn(
-        "font-bold bg-slate-950 max-w-[800px] w-full mx-auto text-center",
+        "font-bold bg-transparent max-w-[800px] w-full mx-auto text-center",
         className
       )}
     >
