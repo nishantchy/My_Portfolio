@@ -43,7 +43,7 @@ const jobs: Job[] = [
   {
     id: "ankamala",
     logo: { src: "/logos/ankamala-logo.png", alt: "Ankamala logo" },
-    company: "Ankamala Org.",
+    company: "Ankamala Research Pvt. Ltd.",
     role: "Backend Developer & DevOps Engineer",
     period: "Jun 2025 – Present",
     summary:
@@ -100,11 +100,33 @@ const jobs: Job[] = [
     ],
   },
   {
+    id: "softified",
+    logo: { src: "/logos/softifiedlogo.png", alt: "Softified logo" },
+    company: "Softified Pvt. Ltd., Kathmandu",
+    role: "Cloud & Full-Stack Developer",
+    period: "Dec 2024 – Jun 2025",
+    summary:
+      "Microservices on AWS with Docker, ECS, ElastiCache and GitHub Actions CI/CD.",
+    link: { href: "https://www.softified.com.np/", label: "More details" },
+    sections: [
+      {
+        points: [
+          "Architected and implemented microservices-based applications using AWS services, including EC2 for compute, S3 for storage, and DocumentDB for Database.",
+          "Designed and deployed a containerized application infrastructure using Docker and AWS ECS.",
+          "Implemented Redis caching on AWS ElastiCache, improving application performance by handling 2500+ more requests per second.",
+          "Created CI/CD pipelines using GitHub Actions for automated testing and deployment to AWS environments.",
+          "Established secure IAM roles and policies following least privilege principles for application resources.",
+          "Led a team of interns to develop scalable, high-performance application with microservices architecture and monorepo.",
+        ],
+      },
+    ],
+  },
+  {
     id: "adex",
     logo: { src: "/logos/adex-logo.png", alt: "Adex International logo" },
     company: "Adex International, Kathmandu",
     role: "AWS Solutions Architect Intern",
-    period: "Nov 2024 – Feb 2025",
+    period: "Nov 2024 – Jan 2025",
     summary:
       "Intensive AWS apprenticeship that ended with the Solutions Architect Associate certification.",
     link: {
@@ -149,28 +171,6 @@ const jobs: Job[] = [
       },
     ],
   },
-  {
-    id: "softified",
-    logo: { src: "/logos/softifiedlogo.png", alt: "Softified logo" },
-    company: "Softified Pvt. Ltd., Kathmandu",
-    role: "Cloud & Full-Stack Developer",
-    period: "Feb 2024 – Jun 2025",
-    summary:
-      "Microservices on AWS with Docker, ECS, ElastiCache and GitHub Actions CI/CD.",
-    link: { href: "https://www.softified.com.np/", label: "More details" },
-    sections: [
-      {
-        points: [
-          "Architected and implemented microservices-based applications using AWS services, including EC2 for compute, S3 for storage, and DocumentDB for Database.",
-          "Designed and deployed a containerized application infrastructure using Docker and AWS ECS.",
-          "Implemented Redis caching on AWS ElastiCache, improving application performance by handling 2500+ more requests per second.",
-          "Created CI/CD pipelines using GitHub Actions for automated testing and deployment to AWS environments.",
-          "Established secure IAM roles and policies following least privilege principles for application resources.",
-          "Led a team of interns to develop scalable, high-performance application with microservices architecture and monorepo.",
-        ],
-      },
-    ],
-  },
 ];
 
 const projects: Project[] = [
@@ -210,7 +210,7 @@ const certificates: Certificate[] = [
   {
     title: "AWS Certified Solutions Architect – Associate",
     issuer: "Adex International's Cloud Apprenticeship Program, Kathmandu",
-    date: "Nov 2024 – Feb 2025",
+    date: "Nov 2024 – Jan 2025",
     image: "/awssaa.png",
     imageAlt: "AWS Solutions Architect Associate",
     href: "https://drive.google.com/file/d/1pq-jdJXnKSwmqv8i6RyIBN24SqpbJsRI/view?usp=sharing",

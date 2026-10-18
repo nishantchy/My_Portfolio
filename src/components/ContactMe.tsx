@@ -58,7 +58,7 @@ export default function Contact() {
       };
 
       const response = await emailjs.send(
-        "service_l3y0ji9",
+        "service_apio37k",
         "template_vhbz6x4",
         templateParams,
         "yD9epBzqbWG-3_J5F"
@@ -69,7 +69,11 @@ export default function Contact() {
         reset();
       }
     } catch (error) {
-      console.error("FAILED...", error);
+      const { status, text } = (error ?? {}) as {
+        status?: number;
+        text?: string;
+      };
+      console.error("FAILED...", status, text ?? error);
       toast.error("Failed to send message. Please try again.");
     } finally {
       setIsLoading(false);
