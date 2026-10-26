@@ -41,16 +41,19 @@ type Certificate = {
 
 const jobs: Job[] = [
   {
-    id: "ankamala",
-    logo: { src: "/logos/ankamala-logo.png", alt: "Ankamala logo" },
-    company: "Ankamala Research Pvt. Ltd.",
+    id: "forgenest",
+    logo: { src: "/logos/forgenest.png", alt: "ForgeNest Services logo" },
+    company: "Forgenest Services Pvt. Ltd.",
     role: "Backend Developer & DevOps Engineer",
     period: "Jun 2025 – Present",
     summary:
       "APIs for OSINT and market-intelligence products, and deployments across 10+ servers.",
     intro:
       "Design, develop and maintain REST APIs and backend services for OSINT and market-intelligence products; own server provisioning, deployments and monitoring for the team's production infrastructure.",
-    link: { href: "https://ankamala.org/", label: "Visit ankamala.org" },
+    link: {
+      href: "https://www.forgenestservices.com.np/",
+      label: "Visit forgenestservices.com.np",
+    },
     sections: [
       {
         title: "Auditcity",
